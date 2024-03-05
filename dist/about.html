@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+    <!-- Header Navigation Html -->
+    <header>
+        <nav class=" w-full z-20 top-0 start-0">
+          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-8">
+              <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-center text-2xl font-semibold whitespace-nowrap text-white uppercase ">Personal</span>
+              </a>
+              <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                  <ul class="flex items-center gap-2">
+                    <li>
+                      <a class="p-2.5  border border-solid border-gray-800 hover:border-green-500 rounded-full block" href="#">
+                        <svg class="w-4 h-4 block text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                          <path fill-rule="evenodd" d="M13.1 6H15V3h-1.9A4.1 4.1 0 0 0 9 7.1V9H7v3h2v10h3V12h2l.6-3H12V6.6a.6.6 0 0 1 .6-.6h.5Z" clip-rule="evenodd"/>
+                        </svg>
+                      </a>
+                  </li>
+                    <li>
+                    <a class="p-2.5  border border-solid border-gray-800 hover:border-green-500 rounded-full block" href="#">
+                      <svg class="w-4 h-4 block text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12.5 8.8v1.7a3.7 3.7 0 0 1 3.3-1.7c3.5 0 4.2 2.2 4.2 5v5.7h-3.2v-5c0-1.3-.2-2.8-2.1-2.8-1.9 0-2.2 1.3-2.2 2.6v5.2H9.3V8.8h3.2ZM7.2 6.1a1.6 1.6 0 0 1-2 1.6 1.6 1.6 0 0 1-1-2.2A1.6 1.6 0 0 1 6.6 5c.3.3.5.7.5 1.1Z" clip-rule="evenodd"/>
+                        <path d="M7.2 8.8H4v10.7h3.2V8.8Z"/>
+                      </svg>  
+                        
+                    </a>
+                  </li>
+                    <li>
+                    <a class="p-2.5  border border-solid border-gray-800 hover:border-green-500 rounded-full block" href="#">
+                      <svg class="w-4 h-4 block text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M12 2c-2.4 0-4.7.9-6.5 2.4a10.5 10.5 0 0 0-2 13.1A10 10 0 0 0 8.7 22c.5 0 .7-.2.7-.5v-2c-2.8.7-3.4-1.1-3.4-1.1-.1-.6-.5-1.2-1-1.5-1-.7 0-.7 0-.7a2 2 0 0 1 1.5 1.1 2.2 2.2 0 0 0 1.3 1 2 2 0 0 0 1.6-.1c0-.6.3-1 .7-1.4-2.2-.3-4.6-1.2-4.6-5 0-1.1.4-2 1-2.8a4 4 0 0 1 .2-2.7s.8-.3 2.7 1c1.6-.5 3.4-.5 5 0 2-1.3 2.8-1 2.8-1 .3.8.4 1.8 0 2.7a4 4 0 0 1 1 2.7c0 4-2.3 4.8-4.5 5a2.5 2.5 0 0 1 .7 2v2.8c0 .3.2.6.7.5a10 10 0 0 0 5.4-4.4 10.5 10.5 0 0 0-2.1-13.2A9.8 9.8 0 0 0 12 2Z" clip-rule="evenodd"/>
+                      </svg>
+                      
+                    </a>
+                  </li>
+                </ul>
+                  <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-700 dark:text-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+              </div>
+              <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul class="flex flex-col p-2 md:p-0 mt-4 font-medium border border-gray-700 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <a href="index.html" class="block py-2 px-3 text-gray-100 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-green-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html" class="block py-2 px-3 text-white rounded md:bg-transparent md:text-green-400 md:p-0 md:dark:text-blue-500" aria-current="page"">About</a>
+                  </li>
+                  <li>
+                    <a href="service.html" class="block py-2 px-3 text-gray-100 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-green-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                  </li>
+                  <li>
+                    <a href="portfolio.html" class="block py-2 px-3 text-gray-100 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-green-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="blog.html" class="block py-2 px-3 text-gray-100 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-green-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" class="block py-2 px-3 text-gray-100 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-green-400 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </nav>
+      </header>
+  
+      <!-- HERO Html -->
+      
+      <section class="pb-8 lg:pb-14 pt-5 lg:pt-10">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="flex flex-col-reverse lg:grid lg:grid-cols-5 gap-8 lg:gap-20 items-center">
+
+            <div class="lg:col-span-3">
+              <div class="inline-flex items-center gap-1 text-sm border border-solid border-gray-800 rounded-3xl py-2.5 px-5 text-gray-300">
+                <svg class="w-5 h-5 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.1 17.6A7.2 7.2 0 0 1 12 21a6.6 6.6 0 0 1-5.8-3c-2.7-4.6.3-8.8.9-9.7A4.4 4.4 0 0 0 8 4c1.3 1 6.4 3.3 5.5 10.6 1.5-1.1 2.7-3 2.9-6.2 1.4 1 4 5.5 1.7 9.2Z"/>
+                  </svg>
+                  <span>ABOUT ME</span>
+              </div>
+              <h1 class=" text-3xl lg:text-4xl font-medium text-gray-100 leading-tight mt-6">I'm Software Company <span class="text-green-400">Front-end Developer</span> from bogura working in web development.</h1>
+              <p class="mt-6 text-gray-400">I enjoy turning complex problems into simple, beautiful and intuitive designs. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+  
+              <div class="grid grid-cols-2 gap-3 mt-10">
+                 <div class="text-gray-300 flex items-center gap-3 text-sm">
+                    <svg class="w-5 h-5 text-green-400 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 12 4.7 4.5 9.3-9"/>
+                    </svg>   
+                    PRODUCT DESIGN
+                 </div>
+                 <div class="text-gray-300 flex items-center gap-3 text-sm">
+                    <svg class="w-5 h-5 text-green-400 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 12 4.7 4.5 9.3-9"/>
+                    </svg>   
+                    WEBSITE DEVELOPMENT
+                 </div>
+                 <div class="text-gray-300 flex items-center gap-3 text-sm">
+                    <svg class="w-5 h-5 text-green-400 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 12 4.7 4.5 9.3-9"/>
+                    </svg>   
+                    WEBSITE DESIGN
+                 </div>
+                 <div class="text-gray-300 flex items-center gap-3 text-sm">
+                    <svg class="w-5 h-5 text-green-400 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 12 4.7 4.5 9.3-9"/>
+                    </svg>   
+                    DESIGN RETAINER
+                 </div>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 border border-solid border-gray-800 p-5 rounded-md">
+                <div class="text-gray-300 flex items-center gap-3 text-base">
+                    <span class="bg-green-400 p-3 rounded-3xl text-black">
+                        <svg class="w-4 h-4 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 13h3.4a1 1 0 0 1 1 .6 4 4 0 0 0 7.3 0 1 1 0 0 1 .9-.6H20M4 13v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6M4 13l2-9h12l2 9"/>
+                        </svg>  
+                    </span>
+                   <span class="flex flex-col gap-1">
+                      <span class="text-gray-400 text-sm">Email Us</span>
+                      <span>muhammadasik75@gmail.com</span>
+                   </span>
+                </div>
+                <div class="text-gray-300 flex items-center gap-3 text-base">
+                    <span class="bg-green-400 p-3 rounded-3xl text-black"> 
+                        <svg class="w-4 h-4 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m18.4 14.8-1.2-1.3a1.7 1.7 0 0 0-2.4 0l-.7.7a1.7 1.7 0 0 1-2.4 0l-1.9-1.9a1.7 1.7 0 0 1 0-2.4l.7-.6a1.7 1.7 0 0 0 0-2.5L9.2 5.6a1.6 1.6 0 0 0-2.4 0c-3.2 3.2-1.7 6.9 1.5 10 3.2 3.3 7 4.8 10.1 1.6a1.6 1.6 0 0 0 0-2.4Z"/>
+                          </svg>
+                    </span>
+                   <span class="flex flex-col gap-1">
+                      <span class="text-gray-400 text-sm">Call Us</span>
+                      <span>+880 1943 403982</span>
+                   </span>
+                </div>
+
+             </div>
+  
+            </div>
+
+            <div class="lg:col-span-2 relative">
+                <div class="border border-solid border-gray-800 hero-img w-80 m-auto lg:w-auto">
+                    <img class="w-full object-cover h-[28rem]  lg:h-[42rem] p-5" src="image/profile.jpg" alt="Image">
+                </div>
+                <img class="hero-sub-img m-8 border border-solid border-gray-800 transform rotate-45 p-3 w-14 h-14  rounded-xl absolute top-0 left-0" src="image/icon1.png" alt="">
+                <img class="hero-sub-img m-8 border border-solid border-gray-800 transform rotate-45 p-3 w-14 h-14  rounded-xl absolute top-0 right-0" src="image/icon2.png" alt="">
+                <img class="hero-sub-img m-8 border border-solid border-gray-800 transform rotate-45 p-3 w-14 h-14  rounded-xl absolute bottom-0 left-0" src="image/icon3.png" alt="">
+                <img class="hero-sub-img m-8 border border-solid border-gray-800 transform rotate-45 p-3 w-14 h-14  rounded-xl absolute bottom-0 right-0" src="image/icon4.png" alt="">
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+
+      <!-- MY SKILLS Html -->
+
+      <section class="pb-14">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div>
+            <div class="inline-flex items-center gap-1 text-sm border border-solid border-gray-800 rounded-3xl py-2.5 px-5 text-gray-300">
+                <svg class="w-5 h-5 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
+                </svg>
+                <span>MY SKILLS</span>
+            </div>
+            <h2 class="text-gray-100 text-3xl lg:text-4xl font-medium mt-6">My  Advantages</h2>
+          </div>
+
+          <div class="progress_bar grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 md:mt-14">
+            <div class="progress_bar_item border border-solid border-gray-800 p-8 rounded-md relative">
+                <div class="flex items-center gap-4 text-gray-100 text-lg">
+                  <img class="w-12 h-12" src="image/s1.png" alt="">
+                  UI / UX Design
+                </div>
+                <div class="item_value border border-solid border-gray-800 text-gray-200 py-2 px-3 rounded-md text-xs absolute top-0 right-0 m-4">0%</div>
+                <div class="item_bar  absolute bottom-0 left-8 right-8 h-1 rounded-lg bg-gray-800">
+                  <div class="progress h-1 rounded-lg bg-gray-100 " data-progress="80"></div>
+                </div>
+            </div>
+            <div class="progress_bar_item border border-solid border-gray-800 p-8 rounded-md relative">
+                <div class="flex items-center gap-4 text-gray-100 text-lg">
+                  <img class="w-12 h-12" src="image/s2.png" alt="">
+                  Development
+                </div>
+                <div class="item_value border border-solid border-gray-800 text-gray-200 py-2 px-3 rounded-md text-xs absolute top-0 right-0 m-4">0%</div>
+                <div class="item_bar  absolute bottom-0 left-8 right-8 h-1 rounded-lg bg-gray-800">
+                  <div class="progress h-1 rounded-lg bg-gray-100 " data-progress="90"></div>
+                </div>
+            </div>
+            <div class="progress_bar_item border border-solid border-gray-800 p-8 rounded-md relative">
+                <div class="flex items-center gap-4 text-gray-100 text-lg">
+                  <img class="w-12 h-12" src="image/s3.png" alt="">
+                  Graphic Design
+                </div>
+                <div class="item_value border border-solid border-gray-800 text-gray-200 py-2 px-3 rounded-md text-xs absolute top-0 right-0 m-4">0%</div>
+                <div class="item_bar  absolute bottom-0 left-8 right-8 h-1 rounded-lg bg-gray-800">
+                  <div class="progress h-1 rounded-lg bg-gray-100 " data-progress="50"></div>
+                </div>
+            </div>
+            <div class="progress_bar_item border border-solid border-gray-800 p-8 rounded-md relative">
+                <div class="flex items-center gap-4 text-gray-100 text-lg">
+                  <img class="w-12 h-12" src="image/s4.png" alt="">
+                  WordPress
+                </div>
+                <div class="item_value border border-solid border-gray-800 text-gray-200 py-2 px-3 rounded-md text-xs absolute top-0 right-0 m-4">0%</div>
+                <div class="item_bar  absolute bottom-0 left-8 right-8 h-1 rounded-lg bg-gray-800">
+                  <div class="progress h-1 rounded-lg bg-gray-100 " data-progress="85"></div>
+                </div>
+            </div>
+            <div class="progress_bar_item border border-solid border-gray-800 p-8 rounded-md relative">
+                <div class="flex items-center gap-4 text-gray-100 text-lg">
+                  <img class="w-12 h-12" src="image/s5.png" alt="">
+                  sketch
+                </div>
+                <div class="item_value border border-solid border-gray-800 text-gray-200 py-2 px-3 rounded-md text-xs absolute top-0 right-0 m-4">0%</div>
+                <div class="item_bar  absolute bottom-0 left-8 right-8 h-1 rounded-lg bg-gray-800">
+                  <div class="progress h-1 rounded-lg bg-gray-100" data-progress="55"></div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- MY RESUME Html -->
+
+      <section class="text-white">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="text-center">
+            <div class="inline-flex items-center gap-1 text-sm border border-solid border-gray-800 rounded-3xl py-2.5 px-5 text-gray-300">
+                <svg class="w-5 h-5 block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m8 8-4 4 4 4m8 0 4-4-4-4m-2-3-4 14"/>
+                </svg>
+                <span>MY RESUME</span>
+            </div>
+            <h2 class="text-gray-100 text-3xl lg:text-4xl font-medium mt-6">Education & Experience</h2>
+          </div>
+          <ol class="border-s border-gray-800 md:flex md:justify-center md:gap-6 md:border-s-0 md:border-t mt-8 md:mt-14">
+          <!--First item-->
+          <li class="text-center">
+            <div class="pt-2 md:block md:pt-0">
+              <div class="m-auto transform -translate-y-1 me-3 h-[8px] w-[8px] rounded-full bg-green-400 md:me-0 md:ms-0"></div>
+              <p class="mt-2 text-sm text-green-400">2018 - 2020</p>
+            </div>
+            <div class="ms-4 mt-2 pb-5 md:ms-0">
+              <h4 class="mb-1.5 text-xl text-gray-100">Front-End WordPress Developer</h4>
+              <p class="mb-1.5 text-sm text-gray-300">[ at Ui-Themez ]</p>
+              <p class="mb-3 text-gray-400 text-sm">
+                Crafting captivating digital experiences that put users
+                at the heart of the design. Elevate your product to increased user
+                satisfaction and loyalty.
+              </p>
+            </div>
+          </li>
+        
+          <!--Second item-->
+          <li class="text-center">
+            <div class="pt-2 md:block md:pt-0">
+              <div class="m-auto transform -translate-y-1 me-3 h-[8px] w-[8px] rounded-full bg-green-400 md:me-0 md:ms-0"></div>
+              <p class="mt-2 text-sm text-green-400">2015 - 2017</p>
+            </div>
+            <div class="ms-4 mt-2 pb-5 md:ms-0">
+              <h4 class="mb-1.5 text-xl text-gray-100">Web Designer</h4>
+              <p class="mb-1.5 text-sm text-gray-300">[ at Envato Market ]</p>
+              <p class="mb-3 text-gray-400 text-sm">
+                Crafting captivating digital experiences that put users
+                at the heart of the design. Elevate your product to increased user
+                satisfaction and loyalty.
+              </p>
+            </div>
+          </li>
+        
+          <!--Third item-->
+          <li class="text-center">
+            <div class="pt-2 md:block md:pt-0">
+              <div class="m-auto transform -translate-y-1 me-3 h-[8px] w-[8px] rounded-full bg-green-400 md:me-0 md:ms-0"></div>
+              <p class="mt-2 text-sm text-green-400">2010 - 2014</p>
+            </div>
+            <div class="ms-4 mt-2 pb-5 md:ms-0">
+              <h4 class="mb-1.5 text-xl text-gray-100">Bachelor's Degree in Design</h4>
+              <p class="mb-1.5 text-sm text-gray-300">[ US RMIT University ]</p>
+              <p class="mb-3 text-gray-400 text-sm">
+                Crafting captivating digital experiences that put users
+                at the heart of the design. Elevate your product to increased user
+                satisfaction and loyalty.
+              </p>
+            </div>
+          </li>
+        </ol>
+
+        </div>
+      </section>
+
+
+      <!-- Footer Html  -->
+        <footer>
+          <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+              <hr class="my-6 border-gray-800 sm:mx-auto dark:border-gray-700 lg:my-8" />
+              <span class="block text-sm text-gray-300 text-center">© 2024 <a class="text-green-400 hover:text-green-500 hover:underline" href="https://github.com/asikwp75" target="_blank" >Github</a>. All Rights Reserved.</span>
+  
+          </div>
+        </footer>
+      <!-- Flowbite js  -->
+      <script src="js/flowbite.js"></script>
+      <script src="js/jquery.min.js"></script>
+
+
+      <script>
+
+        //  progress bar js 
+          $(document).ready(function(){
+            progress_bar();
+          });
+
+          function progress_bar() {
+            var speed = 20;
+            var items = $('.progress_bar').find('.progress_bar_item');
+            
+              items.each(function() {
+                  var item = $(this).find('.progress');
+                  var itemValue = item.data('progress');
+                  var i = 0;
+                  var value = $(this);
+              
+                  var count = setInterval(function(){
+                      if(i <= itemValue) {
+                          var iStr = i.toString();
+                          item.css({
+                              'width': iStr+'%'
+                          });
+                          value.find('.item_value').html(iStr +'%');
+                      }
+                      else {
+                          clearInterval(count);
+                      }
+                      i++;
+                  },speed);
+              });
+          }
+      </script>
+
+    </body>
+</html>
